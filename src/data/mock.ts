@@ -315,9 +315,9 @@ export const conversations: Conversation[] = [
     unreadCount: 1,
     online: true,
     messages: [
-      { id: '1', senderId: '2', senderName: 'Maria Santos', senderAvatar: '/assets/avatars/asset_1.jpg', content: 'Hi Ana! Just a reminder that we have a session today at 2:00 PM.', timestamp: '1:00 PM', isRead: true },
-      { id: '2', senderId: '1', senderName: 'Ana Dela Cruz', senderAvatar: '/assets/avatars/parent-ana.jpg', content: 'Hi Maria! Thank you for the reminder. See you later!', timestamp: '1:05 PM', isRead: true },
-      { id: '3', senderId: '2', senderName: 'Maria Santos', senderAvatar: '/assets/avatars/asset_1.jpg', content: 'See you later at 2 PM!', timestamp: '2:30 PM', isRead: false },
+      { id: '1', senderId: '2', senderName: 'Maria Santos', senderAvatar: 'assets/avatars/asset_1.jpg', content: 'Hi Ana! Just a reminder that we have a session today at 2:00 PM.', timestamp: '1:00 PM', isRead: true },
+      { id: '2', senderId: '1', senderName: 'Ana Dela Cruz', senderAvatar: 'assets/avatars/parent-ana.jpg', content: 'Hi Maria! Thank you for the reminder. See you later!', timestamp: '1:05 PM', isRead: true },
+      { id: '3', senderId: '2', senderName: 'Maria Santos', senderAvatar: 'assets/avatars/asset_1.jpg', content: 'See you later at 2 PM!', timestamp: '2:30 PM', isRead: false },
     ],
   },
   {
@@ -329,7 +329,7 @@ export const conversations: Conversation[] = [
     unreadCount: 0,
     online: false,
     messages: [
-      { id: '1', senderId: '3', senderName: 'Mark Anthony Tuzon', senderAvatar: '/assets/avatars/tutor-mark.jpg', content: 'I sent the worksheet for our next session.', timestamp: '1:45 PM', isRead: true },
+      { id: '1', senderId: '3', senderName: 'Mark Anthony Tuzon', senderAvatar: 'assets/avatars/tutor-mark.jpg', content: 'I sent the worksheet for our next session.', timestamp: '1:45 PM', isRead: true },
     ],
   },
   {
@@ -341,8 +341,8 @@ export const conversations: Conversation[] = [
     unreadCount: 0,
     online: false,
     messages: [
-      { id: '1', senderId: '1', senderName: 'Ana Dela Cruz', senderAvatar: '/assets/avatars/parent-ana.jpg', content: 'Thank you for the session yesterday. Juan really enjoyed it!', timestamp: 'Yesterday', isRead: true },
-      { id: '2', senderId: '4', senderName: 'Alyssa Domingo', senderAvatar: '/assets/avatars/tutor-alyssa.jpg', content: 'Thank you! I\'m glad he enjoyed it. See you next week!', timestamp: 'Yesterday', isRead: true },
+      { id: '1', senderId: '1', senderName: 'Ana Dela Cruz', senderAvatar: 'assets/avatars/parent-ana.jpg', content: 'Thank you for the session yesterday. Juan really enjoyed it!', timestamp: 'Yesterday', isRead: true },
+      { id: '2', senderId: '4', senderName: 'Alyssa Domingo', senderAvatar: 'assets/avatars/tutor-alyssa.jpg', content: 'Thank you! I\'m glad he enjoyed it. See you next week!', timestamp: 'Yesterday', isRead: true },
     ],
   },
 ];
@@ -370,6 +370,6 @@ export const spendingData = [
 ];
 
 export const scheduleData = [
-  { id: '1', time: '2:00 PM - 3:30 PM', subject: 'Mathematics', grade: 'Grade 10', tutor: 'Maria Santos', tutorAvatar: '/assets/avatars/asset_1.jpg', in: 'in 30 mins' },
-  { id: '2', time: '5:00 PM - 6:30 PM', subject: 'Physics', grade: 'Grade 11', tutor: 'Mark Anthony Tuzon', tutorAvatar: '/assets/avatars/tutor-mark.jpg', in: 'in 3 hrs' },
+  { id: '1', time: '2:00 PM - 3:30 PM', subject: 'Mathematics', grade: 'Grade 10', tutor: 'Maria Santos', tutorAvatar: 'assets/avatars/asset_1.jpg', in: 'in 30 mins' },
+  { id: '2', time: '5:00 PM - 6:30 PM', subject: 'Physics', grade: 'Grade 11', tutor: 'Mark Anthony Tuzon', tutorAvatar: 'assets/avatars/tutor-mark.jpg', in: 'in 3 hrs' },
 ];
