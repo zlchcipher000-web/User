@@ -15,7 +15,7 @@ export default function Messages() {
       id: Date.now().toString(),
       senderId: '1',
       senderName: 'Ana Dela Cruz',
-      senderAvatar: '/assets/avatars/parent-ana.jpg',
+      senderAvatar: 'assets/avatars/parent-ana.jpg',
       content: messageInput,
       timestamp: 'Now',
       isRead: true,

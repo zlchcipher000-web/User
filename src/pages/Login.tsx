@@ -32,7 +32,7 @@ export default function Login() {
             Connect with verified university student tutors and help your child excel academically.
           </p>
           <img
-            src="/assets/illustrations/asset_1.jpg"
+            src="assets/illustrations/asset_1.jpg"
             alt="Learning illustration"
             className="mt-10 rounded-2xl w-80 h-48 object-cover mx-auto opacity-90"
           />
