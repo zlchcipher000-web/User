@@ -244,7 +244,7 @@ export const tutors: Tutor[] = [
   {
     id: '6',
     name: 'Sarah Reyes',
-    avatar: '/assets/avatars/tutor-sarah.jpg',
+    avatar: 'assets/avatars/tutor-sarah.jpg',
     course: 'BS Biology',
     year: '2nd Year',
     university: 'Benguet State University',
