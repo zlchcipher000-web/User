@@ -16,7 +16,7 @@ export const children: Child[] = [
     id: '1',
     name: 'Sophia Dela Cruz',
     grade: 'Grade 10',
-    avatar: './assets/avatars/child-sophia.jpg',
+    avatar: 'assets/avatars/child-sophia.jpg',
     subjects: ['Mathematics', 'English'],
     activeSessions: 3,
     nextSession: { date: 'Today, 2:00 PM', tutor: 'Maria Santos' },
@@ -30,7 +30,7 @@ export const children: Child[] = [
     id: '2',
     name: 'Juan Dela Cruz',
     grade: 'Grade 8',
-    avatar: './assets/avatars/child-juan.jpg',
+    avatar: 'assets/avatars/child-juan.jpg',
     subjects: ['Science', 'Filipino'],
     activeSessions: 1,
     nextSession: { date: 'Jun 4, 2026', tutor: 'Alyssa Domingo' },
@@ -54,7 +54,7 @@ export const universities: University[] = [
     avgResponseTime: '1-2 days',
     completedSessions: 3500,
     verified: true,
-    campusPhoto: './assets/universities/asset_1.jpg',
+    campusPhoto: 'assets/universities/asset_1.jpg',
     subjectsOffered: ['Mathematics', 'Science', 'English', 'Physics', 'Chemistry', 'Computer Science', 'Biology', 'Filipino', 'History', 'Economics', 'Statistics', 'Engineering', 'Nursing', 'Education', 'Agriculture'],
     description: 'BSU is a leading state university committed to excellence in instruction, research, and extension services. Our student tutors are rigorously screened and monitored by the university to ensure quality and safety.',
   },
@@ -134,7 +134,7 @@ export const tutors: Tutor[] = [
   {
     id: '1',
     name: 'Maria Santos',
-    avatar: './assets/avatars/asset_1.jpg',
+    avatar: 'assets/avatars/asset_1.jpg',
     course: 'BS Mathematics',
     year: '4th Year',
     university: 'Benguet State University',
@@ -156,7 +156,7 @@ export const tutors: Tutor[] = [
   {
     id: '2',
     name: 'John Dela Cruz',
-    avatar: './assets/avatars/asset_3.jpg',
+    avatar: 'assets/avatars/asset_3.jpg',
     course: 'BS Physics',
     year: '3rd Year',
     university: 'Benguet State University',
@@ -178,7 +178,7 @@ export const tutors: Tutor[] = [
   {
     id: '3',
     name: 'Anne Gomez',
-    avatar: '/assets/avatars/asset_4.jpg',
+    avatar: 'assets/avatars/asset_4.jpg',
     course: 'BS Computer Science',
     year: '3rd Year',
     university: 'Benguet State University',
@@ -200,7 +200,7 @@ export const tutors: Tutor[] = [
   {
     id: '4',
     name: 'Alyssa Domingo',
-    avatar: '/assets/avatars/tutor-alyssa.jpg',
+    avatar: 'assets/avatars/tutor-alyssa.jpg',
     course: 'BS Education',
     year: '3rd Year',
     university: 'Benguet State University',
@@ -222,7 +222,7 @@ export const tutors: Tutor[] = [
   {
     id: '5',
     name: 'Mark Anthony Tuzon',
-    avatar: '/assets/avatars/tutor-mark.jpg',
+    avatar: 'assets/avatars/tutor-mark.jpg',
     course: 'BS Civil Engineering',
     year: '4th Year',
     university: 'Benguet State University',
@@ -266,7 +266,7 @@ export const tutors: Tutor[] = [
   {
     id: '7',
     name: 'James Lim',
-    avatar: '/assets/avatars/tutor-james.jpg',
+    avatar: 'assets/avatars/tutor-james.jpg',
     course: 'BS Chemistry',
     year: '3rd Year',
     university: 'Benguet State University',
@@ -288,14 +288,14 @@ export const tutors: Tutor[] = [
 ];
 
 export const sessions: Session[] = [
-  { id: '1', tutorName: 'Maria Santos', tutorAvatar: '/assets/avatars/asset_1.jpg', subject: 'Algebra Tutoring', date: 'May 22, 2026', timeRange: '4:00 PM - 5:30 PM', duration: '1.5 hrs', mode: 'Online', status: 'Confirmed', grade: 'Grade 10' },
-  { id: '2', tutorName: 'John Dela Cruz', tutorAvatar: '/assets/avatars/asset_3.jpg', subject: 'Physics Review', date: 'May 24, 2026', timeRange: '2:00 PM - 3:30 PM', duration: '1.5 hrs', mode: 'Online', status: 'Confirmed' },
-  { id: '3', tutorName: 'Anne Gomez', tutorAvatar: '/assets/avatars/asset_4.jpg', subject: 'English Conversation', date: 'May 25, 2026', timeRange: '10:00 AM - 11:30 AM', duration: '1.5 hrs', mode: 'Online', status: 'Pending' },
-  { id: '4', tutorName: 'Maria Santos', tutorAvatar: '/assets/avatars/asset_1.jpg', subject: 'Algebra Practice', date: 'May 28, 2026', timeRange: '4:00 PM - 5:30 PM', duration: '1.5 hrs', mode: 'Online', status: 'Scheduled' },
-  { id: '5', tutorName: 'Mark Tuzon', tutorAvatar: '/assets/avatars/tutor-mark.jpg', subject: 'Mathematics', date: 'Today', timeRange: '2:00 PM', duration: '1.5 hrs', mode: 'Online', status: 'Confirmed', grade: 'Grade 10' },
-  { id: '6', tutorName: 'Maria Santos', tutorAvatar: '/assets/avatars/asset_1.jpg', subject: 'Mathematics', date: 'Today', timeRange: '5:00 PM', duration: '1.5 hrs', mode: 'Online', status: 'Confirmed', grade: 'Grade 10' },
-  { id: '7', tutorName: 'Maria Santos', tutorAvatar: '/assets/avatars/asset_1.jpg', subject: 'Grade 10', date: 'Jun 4', timeRange: '5:00 PM', duration: '1.5 hrs', mode: 'Online', status: 'Confirmed' },
-  { id: '8', tutorName: 'Alyssa Domingo', tutorAvatar: '/assets/avatars/tutor-alyssa.jpg', subject: 'English', date: 'Jun 6', timeRange: '2:00 PM', duration: '1.0 hr', mode: 'Online', status: 'Confirmed' },
+  { id: '1', tutorName: 'Maria Santos', tutorAvatar: 'assets/avatars/asset_1.jpg', subject: 'Algebra Tutoring', date: 'May 22, 2026', timeRange: '4:00 PM - 5:30 PM', duration: '1.5 hrs', mode: 'Online', status: 'Confirmed', grade: 'Grade 10' },
+  { id: '2', tutorName: 'John Dela Cruz', tutorAvatar: 'assets/avatars/asset_3.jpg', subject: 'Physics Review', date: 'May 24, 2026', timeRange: '2:00 PM - 3:30 PM', duration: '1.5 hrs', mode: 'Online', status: 'Confirmed' },
+  { id: '3', tutorName: 'Anne Gomez', tutorAvatar: 'assets/avatars/asset_4.jpg', subject: 'English Conversation', date: 'May 25, 2026', timeRange: '10:00 AM - 11:30 AM', duration: '1.5 hrs', mode: 'Online', status: 'Pending' },
+  { id: '4', tutorName: 'Maria Santos', tutorAvatar: 'assets/avatars/asset_1.jpg', subject: 'Algebra Practice', date: 'May 28, 2026', timeRange: '4:00 PM - 5:30 PM', duration: '1.5 hrs', mode: 'Online', status: 'Scheduled' },
+  { id: '5', tutorName: 'Mark Tuzon', tutorAvatar: 'assets/avatars/tutor-mark.jpg', subject: 'Mathematics', date: 'Today', timeRange: '2:00 PM', duration: '1.5 hrs', mode: 'Online', status: 'Confirmed', grade: 'Grade 10' },
+  { id: '6', tutorName: 'Maria Santos', tutorAvatar: 'assets/avatars/asset_1.jpg', subject: 'Mathematics', date: 'Today', timeRange: '5:00 PM', duration: '1.5 hrs', mode: 'Online', status: 'Confirmed', grade: 'Grade 10' },
+  { id: '7', tutorName: 'Maria Santos', tutorAvatar: 'assets/avatars/asset_1.jpg', subject: 'Grade 10', date: 'Jun 4', timeRange: '5:00 PM', duration: '1.5 hrs', mode: 'Online', status: 'Confirmed' },
+  { id: '8', tutorName: 'Alyssa Domingo', tutorAvatar: 'assets/avatars/tutor-alyssa.jpg', subject: 'English', date: 'Jun 6', timeRange: '2:00 PM', duration: '1.0 hr', mode: 'Online', status: 'Confirmed' },
 ];
 
 export const requests: Request[] = [
@@ -309,7 +309,7 @@ export const conversations: Conversation[] = [
   {
     id: '1',
     participantName: 'Maria Santos',
-    participantAvatar: '/assets/avatars/asset_1.jpg',
+    participantAvatar: 'assets/avatars/asset_1.jpg',
     lastMessage: 'See you later at 2 PM!',
     timestamp: '2:30 PM',
     unreadCount: 1,
@@ -323,7 +323,7 @@ export const conversations: Conversation[] = [
   {
     id: '2',
     participantName: 'Mark Anthony Tuzon',
-    participantAvatar: '/assets/avatars/tutor-mark.jpg',
+    participantAvatar: 'assets/avatars/tutor-mark.jpg',
     lastMessage: 'I sent the worksheet.',
     timestamp: '1:45 PM',
     unreadCount: 0,
@@ -335,7 +335,7 @@ export const conversations: Conversation[] = [
   {
     id: '3',
     participantName: 'Alyssa Domingo',
-    participantAvatar: '/assets/avatars/tutor-alyssa.jpg',
+    participantAvatar: 'assets/avatars/tutor-alyssa.jpg',
     lastMessage: 'Thank you!',
     timestamp: 'Yesterday',
     unreadCount: 0,
