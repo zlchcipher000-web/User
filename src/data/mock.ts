@@ -5,7 +5,7 @@ export const currentUser: User = {
   name: 'Ana Dela Cruz',
   email: 'anadelacruz@email.com',
   role: 'parent',
-  avatar: './assets/avatars/parent-ana.jpg',
+  avatar: 'assets/avatars/parent-ana.jpg',
   verified: true,
   location: 'La Trinidad, Benguet',
   phone: '0917 123 4567',
